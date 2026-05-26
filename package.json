@@ -1,0 +1,15 @@
+{
+  "name": "salesforce-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server connecting Claude to Salesforce for Flow Haven",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "jsforce": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0"
+  }
+}
